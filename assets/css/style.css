@@ -20,6 +20,7 @@
 }
 .container{
     max-width: 75%;
+    /* width: 1200px; */
     margin: 0 auto;
 }
 
@@ -73,7 +74,7 @@ header{
     background-image: url(../image/defi-hero-1200x720.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
+    padding-top: 80px;
     margin-bottom: 20px;
     
 }
@@ -193,7 +194,7 @@ header{
 }
 
 .section-vacancies-banner{
-    width: 900px;
+    width: 100%;
     height: 86px;
     display: flex;
    
@@ -210,7 +211,7 @@ header{
 .banner h2{
     color: #001935;
     width: 100%;
-    margin-bottom: 0px;
+    
     height: 50px;
     font-size: 25px;
     font-weight: bold;
@@ -218,7 +219,7 @@ header{
 
 
 .section-vacancies-banner button{
-    width: 240px;
+    width: 180px;
     height: 56px;
     border-radius: 5px;
     border-color:rgb(255, 102, 0);
@@ -258,41 +259,48 @@ header{
     
 }
 .list-group ul li{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     width: 350px;
 }
 .list-group ul li a{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 16px;
     font-weight: 800;
+    width: 100%;
     
     
 }
-
+.list-group ul li a h5{
+    color: #001935;
+    font-size: 16px;
+    
+    
+}
 .list-group ul li a:hover h5{
     color: rgb(255, 102, 0);
+    transition: 0.5s;
 }
 .list-group ul li a p{
     border: 1px;
-    background-color: #caced2a2;
+    background-color: #f6f6f6;
+    color: #001935;
     width: 100px;
+    padding: 5px;
     text-align: right;
     border-radius: 3px;
+    font-size: 14px;
     
 }
 .list-group ul li a p:hover {
     background-color: rgb(255, 102, 0);
     color: white;
+    transition: 0.5s;
 }
-.list-group ul li:hover{
-    background-color: #caced2;
-}
+
 
 
 
