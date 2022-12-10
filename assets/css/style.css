@@ -135,6 +135,7 @@ header{
 
 .main-search-site span{
     color: rgb(255, 102, 0);
+    font-size: 20px;
 }
 
 .social button{
@@ -208,7 +209,11 @@ header{
 
 .banner h2{
     color: #001935;
-    width: 300px;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
@@ -234,9 +239,9 @@ header{
 }
 .banner .line{
     width: 45px;
-    height: 6px;
+    height: 4px;
     background: rgb(255, 102, 0);
-    margin: 10px;
+    margin-bottom: 10px;
     
     
 }
@@ -310,14 +315,18 @@ header{
 
 .banner-vip h2{
     color: #001935;
-    width: 300px;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .banner-vip span{
     width: 45px;
-    height: 6px;
+    height: 4px;
     background: rgb(255, 102, 0);
-    margin: 10px;
+    margin-bottom: 10px;
     
 }
 .banner-vip p{
