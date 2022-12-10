@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+:root{
+    --headertext: #001935;
+    --logoicon: rgb(255, 102, 0);
+    --bottontext: #f9b851;
+    --ffffffffft: #FFF8D3;
+    --footer: #001935;
+    --backgraund: #969696;
+    --textparagraph: #caced2;
+    --paragraph: #f6f6f6;
+    --paragraph: white;
+}
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* start header */
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    
+}
+.header a{
+    color: #001935;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+}
+.header a:hover{
+    cursor: pointer;
+    color: rgb(255, 102, 0);
+}
+.header figure img{
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    top: 1px;
+}
+.header nav ul{
+    display: flex;
+    
+}
+.header nav ul li{
+    margin-left: 20px;
+}
+/* end header */
+/* start main */
+
+/* first section */
+.main-search{
+    width: 100%;
+    height: 830px;
+    background-image: url(../image/defi-hero-1200x720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.main-search-site{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 700px;
+    margin-top: 80px;
+    
+    
+}
+.main-search-site h1, h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-weight: bold;
+    }
+    .main-search-site  h2{
+        margin-bottom: 40px;
+
+    }
+.main-search-site h3{
+   color: #969696;
+   margin-bottom: 4;
+}
+
+.main-search-site p{
+    color: #969696;
+    margin-bottom: 30px;
+    font-size: 17px;
+    
+}
+
+.search-work-city select{
+    width: 275px;
+    height: 54px;
+    padding: 14px 40px 14px 20px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    color: #969696;
+}
+.search-work-city button{
+    width: 140px;
+    height: 54px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(255, 102, 0);
+    border-style: none;
+}
+
+.main-search-site span{
+    color: rgb(255, 102, 0);
+}
+
+.social button{
+    width: 133px;
+    height: 54px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    border-color: white;   
+    background-color: rgba(111, 111, 240, 0.099);
+    color: white;
+    margin-bottom: 30px;
+}
+.social button a{
+    color: rgba(250, 247, 247, 0.371);
+}
+.social button a:hover{
+    color: white;
+}
+.social button:hover, .telegram, .linkedin{
+    background-color: rgb(70, 44, 154);
+    color: white;
+    cursor: pointer;   
+}
+.social .instagram:hover {
+    background-color: rgb(109, 21, 109);
+}
+.mail p{
+    margin-bottom: 0px;
+}
+
+
+/* second section */
+.vacancies{
+    width: 100%;
+    height: 624px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; */
+    
+        
+}
+
+.anons{
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+    
+}
+.anons img{
+ width: 500px;
+ height: 90px;
+  
+}
+
+.section-vacancies-banner{
+    width: 900px;
+    height: 86px;
+    display: flex;
+   
+
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+}
+
+.banner h2{
+    color: #001935;
+    width: 300px;
+}
+
+
+.section-vacancies-banner button{
+    width: 240px;
+    height: 56px;
+    border-radius: 5px;
+    border-color:rgb(255, 102, 0);
+    background-color: white;
+    font-size: 17px;
+    
+
+}
+.section-vacancies-banner a{
+    color: rgb(255, 102, 0);
+}
+.section-vacancies-banner a:hover{
+    color: white;
+}
+.section-vacancies-banner button:hover{
+    background-color: rgb(255, 102, 0);
+    
+}
+.banner .line{
+    width: 45px;
+    height: 6px;
+    background: rgb(255, 102, 0);
+    margin: 10px;
+    
+    
+}
+
+.list-group ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    justify-content: center;
+    
+    
+}
+.list-group ul li{
+    margin-bottom: 25px;
+    
+    
+}
+.list-group ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 800;
+    
+    
+}
+
+.list-group ul li a:hover h5{
+    color: rgb(255, 102, 0);
+}
+.list-group ul li a p{
+    border: 1px;
+    background-color: #caced2a2;
+    width: 100px;
+    text-align: right;
+    border-radius: 3px;
+    
+}
+.list-group ul li a p:hover {
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+
+
+
+/* section 3 */
+
+.new-vacancies-card{
+    width: 100%;
+    height: 1798px;
+    background-color: #F6F6F6;
+    
+}
+
+.banner-vip{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+}
+.new-vacancies-card-banner{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 208px;
+}
+
+.banner-vip h2{
+    color: #001935;
+    width: 300px;
+}
+
+.banner-vip span{
+    width: 45px;
+    height: 6px;
+    background: rgb(255, 102, 0);
+    margin: 10px;
+    
+}
+.banner-vip p{
+    color: #001935;
+    font-weight: 600;
+    width: 1150px;
+    height: 54px;
+
+
+}
+
+.new-vacancies-card-banner button{
+    width: 140px;
+    height: 56px;
+    border-radius: 5px;
+    border-color:rgb(255, 102, 0);
+    background-color: white;
+    font-size: 17px;
+    margin-bottom: 30px;
+    
+
+}
+.new-vacancies-card-banner a{
+    color: rgb(255, 102, 0);
+}
+.new-vacancies-card-banner a:hover{
+    color: white;
+}
+.new-vacancies-card-banner button:hover{
+    background-color: rgb(255, 102, 0);
+    
+}
+
+
+/* card */
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-box{
+    width: 270px;
+    height: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+.card-box:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 51px -6px rgba(82,65,65,0.24);
+-webkit-box-shadow: 1px 2px 51px -6px rgba(82,65,65,0.24);
+-moz-box-shadow: 1px 2px 51px -6px rgba(82,65,65,0.24);
+}
+.card-box .card a{
+    display: flex;
+    flex-direction: column;
+    width: 247px;
+    
+
+}
+.card-box .card h4{
+    font-size: 22px;
+    margin: 0px 0px 15px;
+    text-decoration: underline;
+    color: #001935;
+}
+.card-box .card p{
+    font-size: 16px;
+    height: 84px;
+    margin-bottom: 85px;
+    color: #969696;
+}
+
+.card-box .card span{
+    font-size: 14px;
+    height: 26px;
+    display: flex;
+    flex-direction: column;   
+    color: #001935;  
+
+}
+.card-box .card .change-data{
+    color: #969696;
+}
+
+
+/* section last */
+
+.helpful-advice{
+    width: 100%;
+    
+
+}
+
+.helpful-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+
+.anons{
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.anons img{
+ width: 500px;
+ height: 90px;
+   
+}
+
+.helpful-advice-card-banner{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+   
+
+}
+
+.banner-helpful{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+}
+
+.banner-helpful h2{
+    color: #001935;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.banner-helpful span{
+    width: 45px;
+    height: 4px;
+    background: rgb(255, 102, 0);
+    margin-bottom: 10px;
+    
+}
+.banner-helpful p{
+    width: 100%;
+
+}
+
+/* card box */
+
+.card-box-advice{
+    width: 360px;
+    height: 580px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.helpful-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.card-box-advice:hover{
+    box-shadow: 1px 2px 51px -6px rgba(82,65,65,0.24);
+-webkit-box-shadow: 1px 2px 51px -6px rgba(82,65,65,0.24);
+-moz-box-shadow: 1px 2px 51px -6px rgba(82,65,65,0.24);
+}
+
+.card-box-advice img{
+    width: 360px;
+    height: 240px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.inbox-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.card-box-advice .data-tag{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    color: rgb(255, 102, 0);
+    
+}
+
+.card-box-advice .data-tag i{
+    color: rgb(255, 102, 0);
+    margin-right: 10px;
+    
+}
+
+.card-box-advice .data-tag span{
+    color: #001935;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.inbox-card a h5{
+    width: 300px;
+    height: 64px;
+    color: #001935;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.inbox-card p{
+    width: 300px;
+    height: 140px;
+    color: #001935;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start footer */
+
+footer {
+    width: 100%;
+    background-color: #001935;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.footer{
+    margin: 40px;
+}
+.footer p{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+/* end footer */
